@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <!--The content for the searchbox the user will use to look up the city-->
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city:">
+        </header>
+        <main>
+            <!--The content for the location, city, and date-->
+            <section class="location">
+                <div class="city">City, Country</div>
+                <div class="date">Weekday, Month Day, Year</div>
+            </section>
+            <!--The content for the temperature, weather and hi-low-->
+            <div class="current">
+                <div class="temp">Temperature<span>°F</span></div>
+                <div class="weather">Conditions</div>
+                <div class="hi-low">low°F / hi°F</div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

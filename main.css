@@ -1,0 +1,107 @@
+/* Takes away the padding and margin and determines the width and height */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The body font */
+body {
+    font-family: 'monserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover ;
+    background-size: top center;
+}
+
+/* The display wrapping of the image */
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-position: center center;
+    /* Adding a shade gradient so it is not so bright */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .01));
+}
+
+/* The heder placement and styling */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+/* The styling for the header input box (search box) */
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 100px 50px 100px 50px;
+    border-bottom: 4px solid #267064;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+
+    color: #232222;
+}
+
+/* Makes the input box lighter when interacted with */
+header input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* The location of content for main */
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the location */
+.location .city{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Styling for the date */
+.location .date{
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Style for the temperature */
+.current .temp {
+    color: #FFF;
+    font-size: 100px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+.current .temp span{
+    font-weight: 500;
+}
+
+/* Style for the weather */
+.current .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Style for the hi/low */
+.current .hi-low{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
