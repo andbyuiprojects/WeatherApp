@@ -5,8 +5,6 @@ When creating the app, after writing the HTML and CSS, I was able to learn more 
 
 I wrote this software to mainly learn JavaScript, but also to create something that I could use, and it would stretch me to create it. I wanted to do something I had never done before, and that is here I began researching about api's and came upon the idea to create a weather app.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://youtu.be/IHjz8Xlo8Hg)
 
 # Development Environment
